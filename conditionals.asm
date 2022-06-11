@@ -24,3 +24,4 @@ j label2
 label1:
 addi $t5, $t5,1
 label2:
+li $v0, 10
