@@ -1,0 +1,15 @@
+if (a==b) and (c==d)
+    e++
+else 
+    f++
+
+
+
+
+bne $t1, $t0, label1
+bne $t2, $t3, label1
+addi $t4, $t4, 1
+j label2
+label1:
+addi $t5, $t5,1
+label2:
